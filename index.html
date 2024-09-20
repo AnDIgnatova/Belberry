@@ -1,0 +1,546 @@
+<?php require_once '/opt/php.infrastructure/current/app/index.php'; ?>
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    <!--====== USEFULL META ======-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords"
+        content="" />
+    <meta name="author" content="BDEXPERT" />
+
+    <!--====== TITLE TAG ======-->
+    <title>Медицинские Технологии</title>
+
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="img/img/favicon.png" />
+
+    <!--====== STYLESHEETS ======-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/pogo-slider.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/datepicker.css">
+    <link rel="stylesheet" href="css/timepicker.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--- PRELOADER -->
+
+
+    <!--SCROLL TO TOP-->
+    <a href="#home" class="scrolltotop"><img src="img/img/main/top.svg"></a>
+
+    <!--START TOP AREA-->
+    <header class="top-area" id="home">
+        <div class="header-top-area">
+
+
+            <!--MAINMENU AREA-->
+            <div class="mainmenu-area" id="mainmenu-area">
+                <div class="mainmenu-area-bg"></div>
+                <nav class="navbar">
+                    <div class="container header-container">
+                        <div class="navbar-header">
+                            <button class="collapsed navbar-toggle" type="button" data-toggle="collapse"
+                                data-target=".bs-example-js-navbar-scrollspy">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="#" class="navbar-brand">
+                                <img src="img/img/header/logo.svg" alt="logo">
+                            </a>
+                            <a href="#" class="navbar-brand white">
+                                <img src="img/img/header/logo.svg" alt="logo">
+                            </a>
+                            <a href="#reservation-form-modal" class="navbar-brand-p" data-toggle="modal">
+                                <img src="img/img/header/Button2.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+                            <ul id="nav" class="nav navbar-nav">
+                                <li class="navbar-nav-f"><a href="#about">О нас<img src="img/img/header/open.svg"></a>
+                                    <ul class="navbar-nav-li">
+                                        <li>Отзывы</li>
+                                        <li>Новости</li>
+                                        <li>Сотрудничество</li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Врачи</a></li>
+                                <li><a href="#">Акции</a></li>
+                                <li><a href="#">Диагностика</a></li>
+                                <li><a href="#">Анализы</a></li>
+                                <li><a href="#">Пациентам</a></li>
+                                <li><a href="#">Контакты</a></li>
+                                <li><a href="#t" class="navbar-nav-f-img-a"><img src="img/img/header/search.svg"
+                                            class="navbar-nav-f-img"></a></li>
+                            </ul>
+                            <ul id="nav-contact" class="nav-contact">
+                                <li>
+                                    <ul class="nav-contact-number-list">
+                                        <li><a href="tel:+7 911 210 02 87">+7 911 210 02 87</a></li>
+                                        <li>
+                                            <p>Ежедневно 8:00 - 20:00</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="nav-contact-call-list">
+                                        <li><a href="#"><img src="img/img/header/Button.svg"></a></li>
+                                        <li><a href="#reservation-form-modal" class="nav-contact-call-list__sign" data-toggle="modal"><span>Записаться</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--END MAINMENU AREA END-->
+        </div>
+
+
+
+    </header>
+    <!--END TOP AREA-->
+    <div class="st-introduction-wrap" id="introduction">
+        <div class="container container-row">
+            <div class="row container-introduction">
+                <div class="col-lg-6 col-lg-6-introduction">
+                    <div class="st-section-heading st-style1 container-introduction-heading">
+                        <img src="img/img/main/Group335653.png" alt="">
+                        <h2>Ваше здоровье<br><span class="st-style1-bl">в надежных руках</span></h2>
+                        <p>Создаем комфортные условия для вашего лечения и восстановления, обеспечивая максимальную
+                            эффективность и удобство на каждом этапе.</p>
+                        <a href="#" class="container-introduction-heading__sign"><span>Связаться с клиникой</span></a>
+                    </div>
+                    <div class="st-introduction-text">
+                        <div class="st-introduction-text-row">
+                            <img src="img/img/main/microscope.svg" alt="" class="st-introduction-text-microscope">
+                            <p>Современное оборудование и передовые технологии</p>
+                            <img src="img/img/main/Frame427320259.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="st-introduction-photos">
+            <div class="st-introduction-photos-row st-introduction-photos-row1">
+                <div class="photos-row1">
+                    <p class="introduction-photos1">Ирина Васильва<br><span>Стаж </span>12 лет</p>
+                </div>
+                <div class="photos-row2">
+                    <p class="introduction-photos2">Виталий Петров<br><span>Стаж </span>16 лет</p>
+                </div>
+                <div class="photos-row3">
+                    <p class="introduction-photos3">Анастасия Романова<br><span>Стаж </span>8 лет</p>
+                </div>
+            </div>
+            <div class="st-introduction-photos-row st-introduction-photos-row2">
+                <div class="photos-row4">
+                    <p class="introduction-photos4">Мария Пожарская<br><span>Стаж </span>10 лет</p>
+                </div>
+                <div class="photos-row5">
+                    <p class="introduction-photos5">Алина Кириллова<br><span>Стаж </span>7 лет</p>
+                </div>
+                <div class="photos-row6">
+                    <p class="introduction-photos6">Илья Андреев<br><span>Стаж </span>9 лет</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--ABOUT AREA-->
+
+    <!--ABOUT AREA END-->
+
+    <!--SPEACIAL PROMOTIONS AREA-->
+
+    <!--SPEACIAL PROMOTIONS AREA END-->
+
+    <!--MENUS AREA-->
+    <div class="st-about-wrap st-section-top" id="about">
+        <div class="container">
+            <div class="row container-about">
+                <div class="col-lg-6 col-lg-6-row">
+                    <div class="st-section-heading st-style1">
+                        <h2>Добро пожаловать в сеть клиник<br><span class="st-style1-bl">«Медицинские Технологии»</span>
+                        </h2>
+                    </div>
+                    <div class="st-about-text">
+                        <p>Медицинский центр "Medical Technologies" в Санкт-Петербурге предлагает широкий спектр
+                            высококачественных медицинских услуг. Мы используем передовые технологии и новейшее
+                            оборудование для точной диагностики и эффективного лечения. Наши опытные специалисты,
+                            обладающие многолетним опытом, обеспечивают индивидуальный подход к каждому пациенту.</p>
+
+                        <a href="#" class="st-btn st-style1 st-size1 st-color2">Узнать больше о клинике</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="padding: 0;">
+                    <div class="st-vertical-middle">
+                        <div class="st-vertical-middle-in">
+                            <div class="st-about-img wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s"><img
+                                    src="img/img/main/Rectangle146.png" alt="demo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MENUS AREA END-->
+
+    <div class="why-are-we">
+        <div class="container">
+            <span>Почему стоит к нам обратиться?</span>
+            <ul class="why-are-we-container">
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg" alt=""><span>Онлайн-запись и доступ
+                            к результатам</span></p>
+                    <p class="desc">Внедрили систему онлайн-записи, благодаря которой вы можете выбрать желаемое время
+                        приема и специалиста</p>
+                </li>
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg" alt=""><span>Предварительные
+                            консультации</span></p>
+                    <p class="desc">Первичное обследование, позволяющее врачу оценить состояние пациента и определить
+                        шаги лечения или диагностики</p>
+                </li>
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg" alt=""><span>Централизованная
+                            информационная система</span></p>
+                    <p class="desc">Единая платформа для хранения и управления всеми данными о пациентах, медицинских
+                        записях и административных процессах.</p>
+                </li>
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg"
+                            alt=""><span>Экспресс-диагностика</span></p>
+                    <p class="desc">Быстрое и эффективное обследование, позволяющее оперативно определить состояние
+                        здоровья пациента</p>
+                </li>
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg" alt=""><span>Оптимизированный маршрут
+                            пациентов</span></p>
+                    <p class="desc">Упорядоченный процесс перемещения пациентов между отделениями и специалистами</p>
+                </li>
+                <li class="">
+                    <p class="why-are-we-main"><img src="img/img/main/check.svg" alt=""><span>Горячая линия для
+                            пациентов</span></p>
+                    <p class="desc">Круглосуточная телефонная служба, предоставляющая консультации и оперативную
+                        поддержку по медицинским вопросам.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="specialization">
+        <div class="container">
+            <h2>Мы поможем вам</h2>
+            <p>Атмосфера безопасности и эмпатии</p>
+            <div>
+                <ul class="specialization-choice">
+                    <li><a href="#" class="specialization-choice-btn specialization-choice-btn--active">Специалисты</a>
+                    </li>
+                    <li><a href="#" class="specialization-choice-btn">Диагноистика</a></li>
+                    <li><a href="#" class="specialization-choice-btn">Анализы</a></li>
+                    <li><a href="#" class="specialization-choice-btn">Заболевания</a></li>
+                </ul>
+            </div>
+            <div class="specialization-row">
+                <div class="specialization-choice-two">
+                    <h3>Более 20 специальностей врачей готовы<span class="st-style1-bl"> помочь вам</span></h3>
+                    <ul class="specialization-choice-two-list">
+                        <li class="specialization-choice-two__item specialization-choice-two__item--active">Взрослые
+                            врачи</li>
+                        <li class="specialization-choice-two__item">Детские врачи</li>
+                    </ul>
+                </div>
+                <div class="specialization-roww">
+                    <div class="first-specialization-container">
+                        <ul class="specialization-container">
+                            <li class="">
+                                <p class="specialization-main">А</p>
+                                <ul class="doctors-choice">
+                                    <li>Андролог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">В</p>
+                                <ul class="doctors-choice">
+                                    <li>Ведение беременности</li>
+                                    <li>Врач пренатальной диагностики</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">Г</p>
+                                <ul class="doctors-choice">
+                                    <li>Гастроэнтеролог</li>
+                                    <li>Гематолог</li>
+                                    <li>Генетик</li>
+                                    <li>Гинеколог</li>
+                                    <li>Гинеколог-хирург</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="second-specialization-container">
+                        <ul class="specialization-container">
+                            <li class="">
+                                <p class="specialization-main">Д</p>
+                                <ul class="doctors-choice">
+                                    <li>Диетолог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">К</p>
+                                <ul class="doctors-choice">
+                                    <li>Кардиолог</li>
+                                    <li>Консультант по грудному
+                                        вскармливанию</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">М</p>
+                                <ul class="doctors-choice">
+                                    <li>Маммолог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">Н</p>
+                                <ul class="doctors-choice">
+                                    <li>Невролог</li>
+                                    <li>Нефролог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">О</p>
+                                <ul class="doctors-choice">
+                                    <li>Онколог</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="third-specialization-container">
+                        <ul class="specialization-container">
+                            <li class="">
+                                <p class="specialization-main">П</p>
+                                <ul class="doctors-choice">
+                                    <li>Педиатр</li>
+                                    <li>Психиатр</li>
+                                    <li>Психиатр</li>
+                                    <li>Психолог</li>
+                                    <li>Психотерапевт</li>
+                                    <li>Пульмонолог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">Р</p>
+                                <ul class="doctors-choice">
+                                    <li>Ревматолог</li>
+                                    <li>Репродуктолог</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fourth-specialization-container">
+                        <ul class="specialization-container">
+                            <li class="">
+                                <p class="specialization-main">У</p>
+                                <ul class="doctors-choice">
+                                    <li>Узи</li>
+                                    <li>Уролог</li>
+                                    <li>Уролог-хирург</li>
+                                    <li>Хирург</li>
+                                    <li>Эмбриолог</li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <p class="specialization-main">Э</p>
+                                <ul class="doctors-choice">
+                                    <li>Эндокринолог</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="st-disc-wrap st-section-top" id="disc">
+        <div class="container">
+            <div class="container-disc">
+                <div class="col-lg-6 col-lg-6-roww">
+                    <div class="st-section-heading st-style1">
+                        <h2>Получите скидку<br><span class="st-style1-bl">10% на первое посещение</span>
+                            любого специалиста
+                        </h2>
+                    </div>
+                    <div class="st-disc-text">
+                        <p>Ответьте на 4 простых вопроса о вашей ситуации – менеджер центра запишет вас к нужному врачу
+                            на удобное вам время и закрепит скидку</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-6-roww2">
+                    <div class="col-lg-6-roww2-first">
+                        <div class="st-section-heading st-style1">
+                            <span>1 вопрос</span>
+                            <h3>Выберите врача</h3>
+                        </div>
+                        <div class="col-lg-6-roww2-first--button">
+                            <img src="img/img/main/Frame427320464.png" alt="">
+                        </div>
+                    </div>
+                    <div class="st-disc-text st-disc-text-to">
+                        <ul class="st-disc-text-list">
+                            <li>
+                                <button class="st-disc-text-item__volume">Косметолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume st-disc-text-item__volume--active"><img src="img/img/main/Ellipse20.png" alt="">Кардиолог</button>
+                                <button class="st-disc-text-item__volume--more st-disc-text-item__volume--active"><img src="img/img/main/Ellipse20.png" alt="">Кардиолог</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Дерматолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Диетолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Гастроэнтеролог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Гинеколог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Терапевт</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Эндокринолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Пульмонолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Иммунолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+                            <li>
+                                <button class="st-disc-text-item__volume">Детский ревматолог</button>
+                                <button class="st-disc-text-item__volume--more">M default</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--RESERVATION BUTTON AREA-->
+    <section class="reservation-button-area section-padding" id="reservation-button">
+        <div class="reservation-button-area-bg" data-stellar-background-ratio="0.6"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <!-- RESERVATION FORM MODAL -->
+                    <div class="modal fade" id="reservation-form-modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                            <h2>Записаться на приём</h2>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="reservation-form">
+                                        <form action="thanks.php" class="table-booking-form" id="reservation"
+                                            method="get">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                                                    <label for="name"><i class="fa fa-user-o"></i></label>
+                                                    <input type="text" name="name" id="name" placeholder="Имя...">
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                                                    <label for="mobile"><i class="fa fa-phone"></i></label>
+                                                    <input type="text" name="mobile" id="mobile"
+                                                        placeholder="Телефон...">
+                                                </div>
+                                                <div
+                                                    class="col-md-6 col-lg-6 col-sm-6 col-sm-offset-3  col-md-offset-3  col-lg-offset-3 col-xs-12">
+                                                    <input type="submit" id="submit" name="send" class="submitBnt"
+                                                        value="Записаться">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RESERVATION FORM MODAL -->
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!--FOOER AREA END-->
+
+
+    <!--====== SCRIPTS JS ======-->
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"
+        integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!--====== PLUGINS JS ======-->
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.pogo-slider.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/instafeed.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/timepicker.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+
+    <!--===== ACTIVE JS=====-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
