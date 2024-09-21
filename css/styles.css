@@ -2462,10 +2462,13 @@ ul.blog-instagram-feed-widget li {
 
 .specialization-roww {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1119px;
+    @media (min-width: 721px) {
+        flex-direction: row;
+    }
 }
 
 .specialization-main {
@@ -2809,12 +2812,8 @@ ul.blog-instagram-feed-widget li {
 margin: 0 auto;
 }
 
-.navbar-brand {
+.navbar-header {
     position: relative;
-    padding: 12px;
-    @media (min-width: 991px) {
-        padding: 15px;
-    }
 }
 
 .navbar-brand-p {
